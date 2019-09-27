@@ -3,7 +3,7 @@ public class CrookedDie2 extends Die // subclassing
 {
 	public CrookedDie2()
 	{
-		CrapsGame.println("  CrookedDie2's constructor called.");
+//		CrapsGame.println("  CrookedDie2's constructor called.");
 	}
 
 	public void roll() // can you see what this computes?

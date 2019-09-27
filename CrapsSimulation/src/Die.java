@@ -3,9 +3,14 @@ public class Die
 {
 	private int lastRoll;
 
+	public static String testStatic()
+	{
+		return "Die.testStatic()";
+	}
+	
 	public Die()
 	{
-		CrapsGame.println("Die() constructor called.");
+//		CrapsGame.println("Die() constructor called.");
 		this.roll();
 	}
 
