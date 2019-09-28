@@ -24,6 +24,7 @@ public class PlayWithInheritanceTest
 	{
 		Die die = new CrookedDie1();
 		String response = Die.testStatic();
+		
 		// this test fails, showing you cannot override a static method
 //		assertEquals("fail msg", "CrookedDie1.testStatic()", response);
 		
